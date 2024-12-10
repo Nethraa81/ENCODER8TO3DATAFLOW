@@ -47,15 +47,21 @@ Developed by: N NETHRAA
 RegisterNumber: 24900193
 */
 
-```
 module exe05(din,a,b,c);
+
 input [0:7] din;
+
 output a,b,c;
+
 assign a=(din[4]| din[5]| din[6]| din[7]);
+
 assign b=(din[2]| din[3]| din[6]| din[7]);
+
 assign c=(din[1]| din[3]| din[5]| din[7]);
+
 endmodule
-```
+
+
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
 
